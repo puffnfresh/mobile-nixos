@@ -12,6 +12,7 @@
   ./generated-filesystems.nix
   ./hardware-allwinner.nix
   ./hardware-exynos.nix
+  ./hardware-freescale.nix
   ./hardware-generic.nix
   ./hardware-mediatek.nix
   ./hardware-qualcomm.nix
