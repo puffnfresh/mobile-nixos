@@ -199,13 +199,6 @@ in
           '';
           visible = false;
         };
-        u-boot = mkOption {
-          type = types.package;
-          description = ''
-            U-Boot build for the system.
-          '';
-          visible = false;
-        };
       };
     };
   };

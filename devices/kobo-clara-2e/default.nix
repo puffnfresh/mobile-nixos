@@ -1,9 +1,9 @@
 { config, lib, pkgs, ... }:
 
 {
-  mobile.device.name = "kobo-clara";
+  mobile.device.name = "kobo-clara2e";
   mobile.device.identity = {
-    name = "Clara HD";
+    name = "Clara 2E";
     manufacturer = "Kobo";
   };
 
@@ -15,7 +15,7 @@
     };
   };
 
-  mobile.device.firmware = pkgs.callPackage ./firmware {};
+  mobile.device.firmware = pkgs.callPackage ./firmware { };
   mobile.boot.stage-1 = {
     kernel.package = pkgs.callPackage ./kernel { };
     firmware = [
